@@ -1,6 +1,16 @@
 import { Component } from 'react';
 const commonStyle = require('../../build/css/pc_comment.css');
 export default class PcComment extends Component {
+    constructor() {
+        super();
+        this.state = {
+            message: ''
+        }
+    }
+    handleSubmit(e) {
+        e.preventDefault();
+        console.log(this.refs.text.value);
+    }
     render() {
         const comments = this.state.message;
         const list = comments.length ? comments.map((item,index) => {

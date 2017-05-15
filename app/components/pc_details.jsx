@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import PcComment from './pc_comment';
 const detailStyle = require('../../build/css/pc_details.css');
 export default class PcDetails extends Component {
     constructor() {
@@ -7,7 +8,7 @@ export default class PcDetails extends Component {
                 title: 'cxy1',
                 content: 'ccc111111111111111111111111111111111111',
                 date: '2016-01-30',
-                id: 1
+                id: this.props.params.id
         }
     }
     render() {
@@ -20,6 +21,7 @@ export default class PcDetails extends Component {
                 <container>
                     {this.state.content}
                 </container>
+                <PcComment />
             </div>
         );
     }

@@ -9,7 +9,7 @@ class Root extends Component {
         return (
             <Router history={hashHistory}>
                 <Route path="/" component={PcIntroduce}>
-                    <IndexRoute component={PcList} />
+                    <IndexRoute component={PcList}></IndexRoute>
                     <Route path="details/:id" component={PcDetails} />
                 </Route>
             </Router>
