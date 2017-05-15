@@ -1,0 +1,17 @@
+.main {
+    margin: 0px 10% 0px 35%;
+    padding: 100px 0;
+    width: 55%;
+}
+.main h2,h1,p {
+    color: #787878;
+}
+.main header {
+    display: block;
+    height: 300px;
+    width: 100%;
+}
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+}

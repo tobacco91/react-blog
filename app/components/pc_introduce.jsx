@@ -34,7 +34,7 @@ export default class PcIntroduce extends Component {
 					</div>
 					<h1>{this.state.person.title}</h1>
 					<p>{this.state.person.construct}</p>
-					<a class="git">
+					<a class={leftStyle.git}>
 						<i class="iconfont icon-github"></i>
 					</a>
 				</div>

@@ -1,0 +1,32 @@
+.list p,h2 {
+    color: #787878;
+}
+.list {
+    margin: 0px 10% 0px 35%;
+    padding: 100px 0;
+    width: 55%;
+   
+}
+.block {
+    width: 100%;
+    height: 300px;
+}
+.block h2 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.block p {
+    margin: 0 auto;
+    width: 100%;
+    height: 200px;
+    display: -webkit-box;
+    word-break: break-all;
+    text-overflow:ellipsis;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+.block hr {
+    margin-top: 20px;
+}
